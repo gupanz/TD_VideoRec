@@ -42,5 +42,5 @@ class Settings(object):
         self.restore = False
         self.out_dir = './data/output'
         # self.data_dir = './data/input'
-        self.data_dir = "/data/gp/Dataset1/dataset1"
+        self.data_dir = "./data/dataset1"
         self.restore_model_dir = './data/output'
