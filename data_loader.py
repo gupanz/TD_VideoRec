@@ -29,7 +29,7 @@ class DataLoader(object):
             self.load_data2()
 
     def load_data2(self):
-        file_root = "/data/gp/Dataset1/dataset2"
+        file_root = "./data/dataset2"
         # 下面是视觉特征
         train_visual_dir = os.path.join(file_root, "visual_feature_0711_notwhiten.npy")
         self.train_visual_feature = np.load(train_visual_dir)
